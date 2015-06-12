@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-indent",
+  "version": "0.0.1",
+  "description": "ESLint rules for indentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/rules"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "author": "Will Klein",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "eslint-tester": "^0.7.0",
+    "mocha": "^2.2.5"
+  }
+}
