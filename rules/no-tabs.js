@@ -1,5 +1,5 @@
 module.exports = function(context) {
-  var regex = /^[\t]/;
+  var regex = /[\t]/;
 
   return {
     'Program': function(node) {

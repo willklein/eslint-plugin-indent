@@ -1,9 +1,11 @@
 {
-  "name": "eslint-plugin-indent",
+  "name": "eslint-plugin-whitespace",
   "version": "0.0.1",
-  "description": "ESLint rules for indentation",
+  "description": "ESLint rules for whitespace",
   "main": "index.js",
   "scripts": {
+    "minor-release": "npm version minor && npm publish && git push --follow-tags",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
     "test": "mocha tests/rules"
   },
   "keywords": [

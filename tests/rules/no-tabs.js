@@ -7,12 +7,16 @@ var expectedErrors = [ { message: 'Tabs found.' } ];
 
 eslintTester.addRuleTest('rules/no-tabs', {
   valid: [
-    '  var thisHas =	"spaces";'
+    '  var thisHas = "spaces";'
   ],
 
   invalid: [
     {
       code: '	var thisHas = "a tab";',
+      errors: expectedErrors
+    },
+    {
+      code: '  var thisHas =	"a tab";',
       errors: expectedErrors
     }
   ]
