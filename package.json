@@ -10,7 +10,8 @@
   },
   "keywords": [
     "eslint",
-    "eslintplugin"
+    "eslintplugin",
+    "whitespace"
   ],
   "author": "Will Klein",
   "license": "MIT",
@@ -23,5 +24,8 @@
     "eslint": "^0.22.1",
     "eslint-tester": "^0.7.0",
     "mocha": "^2.2.5"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.22.0"
   }
 }
